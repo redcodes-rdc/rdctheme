@@ -17,6 +17,9 @@
 .rdc-jc-fle {
   justify-content: flex-end;
 }
+.rdc-jc-spb {
+  justify-content: space-between;
+}
 
 .rdc-p-fix {
   position: fixed;
