@@ -35,4 +35,4 @@
     <span class="h2">{{ shop.name }}</span>
   {% endif %}
 </a>
-{% if is_homepage %}</h1>{% endif %}
+{% if request.page_type == 'index' %}</h1>{% endif %}
