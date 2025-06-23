@@ -1,0 +1,268 @@
+/** RDC **/
+
+.rdc-d-flex {
+  display: flex;
+}
+.rdc-d-none {
+  display: none;
+}
+
+.rdc-ai-cen {
+  align-items: center;
+}
+
+.rdc-jc-cen {
+  justify-content: center;
+}
+.rdc-jc-fle {
+  justify-content: flex-end;
+}
+
+.rdc-p-fix {
+  position: fixed;
+}
+
+.rdc-of-hid {
+  overflow: hidden;
+}
+
+.rdc-fw-wra {
+  flex-wrap: wrap;
+}
+
+.rdc-ff-col {
+  flex-flow: column;
+}
+
+.rdc-w-full {
+  width: 100%;
+}
+
+.rdc-w-half {
+  width: 50%;
+}
+.rdc-w-10 {
+  width: 10%;
+}
+.rdc-w-20 {
+  width: 20%;
+}
+
+.rdc-w-30 {
+  width: 30%;
+}
+
+.rdc-w-80 {
+  width: 80%;
+}
+
+.rdc-w-33 {
+  width: 33.33%;
+}
+
+.rdc-w-80vw {
+  width: 80vw;
+}
+
+.rdc-h-full {
+  height: 100%;
+}
+
+.rdc-mw-full {
+  max-width: 100%;
+}
+.rdc-mw-100 {
+  max-width: 100px;
+}
+.rdc-mw-150 {
+  max-width: 150px;
+}
+
+.rdc-mw-300 {
+  max-width: 300px;
+}
+.rdc-mw-400 {
+  max-width: 400px;
+}
+
+.rdc-mw-1200 {
+  max-width: 1200px;
+}
+
+.rdc-m-iauto {
+  margin-inline: auto;
+}
+.rdc-m-t10 {
+  margin-top: 10px;
+}
+.rdc-m-t20 {
+  margin-top: 20px;
+}
+
+.rdc-m-b20 {
+  margin-bottom: 20px;
+}
+
+.rdc-m-bl10 {
+  margin-block: 10px;
+}
+.rdc-m-bl20 {
+  margin-block: 20px;
+}
+
+.rdc-p-5 {
+  padding: 5px;
+}
+.rdc-p-10 {
+  padding: 10px;
+}
+.rdc-p-15 {
+  padding: 15px;
+}
+
+.rdc-p-20 {
+  padding: 20px;
+}
+.rdc-p-b20 {
+  padding-bottom: 20px;
+}
+
+.rdc-br-full {
+  border-radius: 100px;
+}
+
+.rdc-cu-poi {
+  cursor: pointer;
+}
+
+.rdc-ta-cen {
+  text-align: center;
+}
+.rdc-ta-rig {
+  text-align: right;
+}
+
+.rdc-c-white {
+  color: #fff;
+}
+
+.rdc-bg-lightgray-1 {
+  background-color: #333;
+}
+.rdc-bg-black {
+  background-color: #000;
+}
+
+.rdc-fs-14 {
+  font-size: 14px;
+}
+.rdc-fs-16 {
+  font-size: 16px;
+}
+.rdc-fs-18 {
+  font-size: 18px;
+}
+
+.rdc-fw-600 {
+  font-weight: 600;
+}
+.rdc-fw-700 {
+  font-weight: 700;
+}
+
+.rdc-td-none {
+  text-decoration: none;
+}
+
+.rdc-ls-none {
+  list-style: none;
+}
+
+/**Generic Styling**/
+.rdc-icon-button {
+  cursor: pointer;
+}
+
+.rdc-close {
+  width: 0 !important;
+  padding: 0;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+  .rdc-m-d-block {
+    display: block;
+  }
+  .rdc-m-d-flex {
+    display: flex;
+  }
+
+  .rdc-m-jc-spb {
+    justify-content: space-between;
+  }
+  .rdc-m-jc-fle {
+    justify-content: flex-end;
+  }
+
+  .rdc-m-w-full {
+    width: 100%;
+  }
+  .rdc-m-w-half {
+    width: 50%;
+  }
+  .rdc-m-p-2 {
+    padding: 2px;
+  }
+  .rdc-m-p-0 {
+    padding: 0px;
+  }
+
+  .rdc-m-ff-cre {
+    flex-flow: column-reverse;
+  }
+
+  .rdc-m-p-rel {
+    position: relative;
+  }
+  .rdc-m-p-abs {
+    position: absolute;
+  }
+  .rdc-m-p-fix {
+    position: fixed;
+  }
+
+  /**Drawer and Modal Generic Styling**/
+  .rdc-m-close {
+    width: 0 !important;
+    padding: 0;
+    overflow: hidden;
+  }
+}
+
+/**Drawer and Modal Generic Styling**/
+.rdc-dm-bg {
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}
+
+.rdc-drawer-box {
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+}
+
+.rdc-modal-box {
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 100%;
+  max-width: 600px;
+  max-height: 400px;
+  margin-inline: auto;
+}
