@@ -1,7 +1,12 @@
 <header class="rdc-header--main">
   <div class="rdc-header--inner">
    <div class="rdc-header--logo">
-  {% render 'rdc-logo' %}
+  {% render 'rdc-logo',
+  logo: settings.logo,
+  logo_width: settings.logo_width,
+  logo_position: settings.logo_position
+%}
+
 </div>
     <div class="rdc-header--menu">
   
